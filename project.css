@@ -1,0 +1,221 @@
+/* body{margin:none;
+    border: none;
+    padding: none;
+    border:borderbox;} */
+
+header{text-align: center;
+        text-transform: capitalize;
+        /* position: sticky; */
+   /* font-family: 'Courier New', Courier, monospace;*/}
+
+/*all links*/
+a{text-decoration: none;
+    color:white}
+
+#navbar{background-color: rgba(0, 0, 0, 0.925);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 7.5vh;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 7px;
+    border-top-left-radius: 7px;}
+
+.navbar{flex-shrink: 0;
+    }
+
+#name a{text-decoration: none;
+    color: rgb(255, 175, 2);
+    font-weight :800;
+    font-size: 6vh;
+    text-transform: lowercase;}
+
+#address{font-size: 1.9vh;}
+
+#navlink{height:5.5vh;}
+
+#search{flex-shrink: 1;
+    display : flex;
+    flex-direction: row;
+    align-items: center;}
+    
+#search select{height: 5.5vh;
+    width: 10vw;
+    font-size: 2.5vh;
+    font-style: none;
+    font-weight: 100;
+    text-align: center;
+    background-color: lightgrey;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;}
+
+#searchbar{height: 4.7vh;
+    width: 40vw;
+    }
+
+#search button{height: 5.7vh;
+    background-color: rgb(255, 175, 2);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    }
+
+#lang select{height: 5.5vh;
+    background-color: rgba(0, 0, 0, 0.925);
+    color:white;
+    border: none;
+    }
+
+#accounts{font-size: 1.9vh;
+}
+
+#order{font-size: 1.9vh;
+}
+/* #cart{} */
+
+.navbar :hover{border: 1px solid white;}
+
+/*--------------section2----------------*/
+#subnav{background-color: rgba(0, 0, 0, 0.768);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5vh;
+    font-size: 2.5vh;
+   /* flex-wrap: wrap;*/
+    }
+.subnav{margin-right: 1.7vw;}
+
+#menu{color:white;
+}
+.subnav :hover{border: 1px solid white;
+    padding:0.8vh}
+
+
+/* ------------------------------main------------------------------ */
+
+
+#section1{display:flex;
+    flex-direction: row;
+    width: 130vw;
+    text-align: left;
+    font-size: 6vh;}
+
+.section1{height:50vh;
+    width :17vw;
+    margin-left: 0.5vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 7px;
+    padding: 2vh;
+    color: lightyellow;
+    font-weight: 800;
+    text-transform:capitalize ;}
+
+#kitchen{background-image: url("hipvan-kitchenware-stores-.jpg");
+    background-size:cover;
+    margin-left: 0;}
+#beauty{background-image: url("makeup.jpg");
+    background-size:cover;}
+#clothes{background-image: url('clothes.jpg');
+    background-size: cover;}
+#toys{background-image: url('toys.jpeg');
+    background-size: cover;}
+#laptops{background-image: url("laptops.jpg");
+    background-size:cover}
+#books{background-image: url("books.jpg");
+    background-size: cover}
+
+
+/* -----------------section2---------------- */
+
+#section2{height: 64vh;
+    width: 98vw;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vh;}
+
+.section2{border: 0.7px solid rgba(0, 0, 0, 0.399);
+    border-radius: 10px;
+    width:22.7vw;
+    padding: 0.5vw;
+    margin:0.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    }
+#parta{margin-left: 0;}
+
+.parts{display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;}
+
+.section2text{font-size: 3.5vh;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:black;
+    margin-bottom: 2vh;
+    align-self:flex-start ;
+}
+#section2 img{height:11vw;
+    width: 11vw;
+    border-radius: 10px;}
+
+.imgtxt{display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:0.3vw;}
+
+#section2 p{margin-top: 0;}
+
+/* ----------------section3----------- */
+#section3{display:flex;
+    flex-direction:column;
+    align-items: center;
+    /*  justify-content: center; */
+    }
+
+#sec3text{font-size: 3.5vh;
+    font-weight:700;
+    color:black;
+    text-transform: capitalize;
+    margin-bottom:0;
+    }
+#sec3text p{margin-bottom:0.4vh}
+#signin{background-color: rgba(255, 187, 0, 0.827);
+    color: black;
+    border-radius: 20px;
+    width: 18vw;
+    height: 4.5vh;
+    font-size: 2.1vh;
+    margin-top: 0;}
+
+#section3 a{text-decoration:underline solid blue;
+    color: blue;
+    display: inline-block;
+    text-transform: capitalize;
+    }
+#lowertext{display: inline;
+    text-transform: capitalize;}
+
+/* -------------footer----------------- */
+
+footer{background-color:rgb(8, 8, 43);
+    height:50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;}
+
+footer div{color:white}
+
+
+
+
+
+
+
+
